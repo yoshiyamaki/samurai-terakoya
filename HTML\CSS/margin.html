@@ -1,0 +1,56 @@
+<div style="margin: 20px; background-color: lightblue;">内容</div>
+
+<div style="padding: 20px; background-color: lightblue;">内容</div>
+
+<div style="background-color: lightblue; margin: 20px;">ボックス1</div>
+<div style="background-color: lightgreen; margin: 50px;">ボックス2</div>
+
+<div style="background-color: lightcoral; padding: 20px; border: 2px solid black;">
+  内側に余白があります
+</div>
+
+<div style="background-color: lightblue; margin: 10px 20px 30px 40px;">
+  マージン: 上10px 右20px 下30px 左40px
+</div>
+<div style="background-color: lightgreen; padding: 5px 15px;">
+  パディング: 上下5px 左右15px
+</div>
+
+<div style="width: 200px; background-color: lightblue; margin: 0 auto;">
+  中央揃え
+</div>
+
+<div style="padding: 20px; border: 2px solid black; background-color: lightgray;">
+  <p style="margin: 0;">余白をリセットした段落</p>
+</div>
+
+* {
+  box-sizing: border-box;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MarginとPaddingの例</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .box {
+      border: 2px solid black;
+      background-color: lightblue;
+      margin: 20px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    マージンとパディングの例です。
+  </div>
+</body>
+</html>
